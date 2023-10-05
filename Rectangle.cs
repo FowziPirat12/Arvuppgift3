@@ -6,12 +6,14 @@ namespace Arvuppgift3
         int width; 
         public int Area()
         {
-            throw new NotImplementedException();
+            int area = height * width;
+            return area;
         }
 
         public int Circumference()
         {
-            throw new NotImplementedException();
+            int omkrets = (height*2) + (width*2);
+            return omkrets;
         }
 
     }

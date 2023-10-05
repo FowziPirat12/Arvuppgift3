@@ -7,12 +7,14 @@ namespace Arvuppgift3
         int radius; 
         public int Area()
         {
-            throw new NotImplementedException();
+            int area = (int)(Math.PI*2*radius*height) + (int)Math.PI*2*(radius*radius);
+            return area;
         }
 
         public int Circumference()
         {
-            throw new NotImplementedException();
+            int omkrets = (int)Math.PI*2*radius;
+            return omkrets; 
         }
 
     }

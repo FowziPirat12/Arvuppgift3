@@ -6,12 +6,14 @@ namespace Arvuppgift3
         int radius;
         public int Area()
         {
-            throw new NotImplementedException();
+            int area = (int)Math.PI*4*radius*2; 
+            return area;
         }
 
         public int Circumference()
         {
-            throw new NotImplementedException();
+            int c = (int)Math.PI*2*radius;
+            return c; 
         }
 
     }

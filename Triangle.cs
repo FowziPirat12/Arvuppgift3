@@ -8,12 +8,15 @@ namespace Arvuppgift3
         int width;
         public int Area()
         {
-            throw new NotImplementedException();
+            int area = (height * width) / 2;
+            return area;
         }
 
         public int Circumference()
         {
-            throw new NotImplementedException();
+            int c = (int)Math.Sqrt((height * height) + (width  * width));
+            int omkrets = c + height + width; 
+            return omkrets; 
         }
     }
 }
